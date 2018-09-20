@@ -9,64 +9,108 @@
  </head>
 <body>
     <div id="main">
-        <div class="header">
+        <div class="header">            
             <div class="nav">
-                    <ul>
-                        <section class="nav-left">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#practical">Practice Areas</a></li>
-                            <li><a href="#News"></a>News</li>
-                            <li><a href="#Contact"></a>Contact</li>                        
-                        </section>
-                        <section class="nav-center">
-                            <li class="logo"><img src="logo.png" alt=""></li>
-                            <li>Alegada</li>
-                        </section>  
-                        <section class="nav-right">
-                            <li>Clients</li>
-                            <li>Recent Cases</li>
-                            <li>Get an Appointment</li>
-                        </section>
-                        <section class="icons">
-                            <li><img src="search.png" alt="Search"></li>
-                            <li><img src="contact.png" alt="Contact"></li>
-                        </section>
+                <div class="nav-left">
+                    <ul>                        
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#practical">Practice Areas</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>                        
                     </ul>
+                </div>
+                <div class="nav-center">
+                    <img class="logo" src="logo.png" alt="">
+                    <p>Alegada</p>
+                </div>                
+                <div class="nav-right">
+                    <div class="nav-rt">                
+                        <ul>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#recent-cases">Recent Cases</a></li>
+                            <li><a href="#get-an-appointment">Get an Appointment</a></li>
+                        </ul>
+                    </div>
+                    <div id="search">
+                        <div class="search-form">
+                            <form action="/action.php" method="GET">
+                                <input type="text" name="search">
+                                <button class="search-icon" type="submit" value="" >
+                            </form>
+                        </div>
+                    </div>
+            
+                    <div id="contact">
+                        <a href="#contact"><img src="contact.png" title="Contact Details"></a>
+                    </div>
+                </div>                  
+
             </div>
             <div class="caption">
-                <pre>TALENTED LAW FIRM</pre>
+                <p class="sub-head">TALENTED LAW FIRM</p>
                 <h2>We are successful law firm with expert team of Solicitors.</h2>
-                <p>The 19<span>th centuries saw many countries fighting for independence from their colonial masters.
-                
+                <p>The 19<sup>th</sup> centuries saw many countries fighting for independence from their colonial masters.
                 </p>
-                <button onclick="learn">Learn more</button>
+                <button><a href="#read-more"> Learn more</a></button>
             </div>
         </div>
-        <div class="content">
-            <div class="column">
-                <div class="column-one">
-                    <img src="logo.png" alt="Logo">
-                    <h2>Hello world!</h2>
-                    <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-                </div>  
-                <div class="column-two">
-                    <img src="contact.png" alt="Logo">
-                    <h2>Minim veniam</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.                
-                    </p>
+        <div class="body_content">
+            <div class="segment">
+                <div class="column">
+                    <div class="column-one">
+                        <img src="case.png" alt="Icon">
+                        <h2>99% winning cases</h2>
+                        <p>One some ouched winked far sed wail playfully that showed
+                            yellow ipsum reciprocating laorem ipsum dolor sit amet
+                            consectetur.
+                        </p>
+                    </div>  
+                    <div class="column-two">
+                        <img src="prof.png" alt="Icon">
+                        <h2>professional advices</h2>
+                        <p>One some ouched winked far sed wail playfully that showed
+                            yellow ipsum reciprocating laorem ipsum dolor sit amet
+                            consectetur.
+                        </p>
+                    </div>
+                    <div class="column-three">
+                        <img src="appt.png" alt="Icon">
+                        <h2>get appointment</h2>
+                        <p>One some ouched winked far sed wail playfully that showed
+                            yellow ipsum reciprocating laorem ipsum dolor sit amet
+                            consectetur.
+                        </p>
+                    </div>                    
+                </div>          
+                <br><br>
+                <div class="about">
+                    <div class="about_icon">
+                        <img class="logo_icon" src="logo.png" alt="Logo">
+                    </div>
+                    <div class="about_head">
+                        <h2>About Law Firm</h2>
+                        <p>Learn how our law firm helps their clients</p>
+                    </div>
+                    <div class="about-content">
+                        <p>saluted wow bad and sharp but fish direly the raging salamander one and bit
+                            worm but wow ape dear in dear like and Rebuilt melodious in took the loving
+                            crud in interbred less gorilla therefore ouch impotently far impala inclusive far
+                            as ouch that more wow and unscrupulously much belched to salmon into wel
+                            compatibly abhorrently far wallaby mindful much. <br><br>
+                            Chromatic paid some hence in goodness this tonally elephant sor unobtrusie
+                            that avaricious that confessed preparatory spontaneous.
+                        </p>
+                        <blockquote><p> 
+                            The Principle of Law is lies in the accurate idea 
+                            manipulation of subtle throughout the seres of 
+                            lawyer cases all around. </p>
+                            <img src="sign.png">
+                        </blockquote>
+                    </div>
                 </div>
-                <div class="column-three">
-                    <img src="search.png" alt="Logo">
-                    <h2>Dolor sit amet</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div> 
-            </div>            
-            <div class="about">
-                <img src="logo.png" alt="Logo">
-                <p>.......</p>
-                <h1>About Law Firm</h1>
             </div>
+        </div>
     </div>
 </body>
-</html>
+ 
